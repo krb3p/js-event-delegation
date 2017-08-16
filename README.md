@@ -1,1 +1,1 @@
-# js-event-delegation
+JS Event Delegation Example
