@@ -17,7 +17,6 @@ $newForm.on('submit', function(event){
   var title = $(this).find("input[name='title']").val()
   var content = $(this).find("input[name='title']").val()
   $postDiv.append(postHTML(title, content))
-  $('form').hide()
   hideForm()
 })
 
