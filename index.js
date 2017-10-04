@@ -15,7 +15,7 @@ $addNewButton.on('click', function(event) {
 $newForm.on('submit', function(event){
   event.preventDefault()
   var title = $(this).find("input[name='title']").val()
-  var content = $(this).find("input[name='title']").val()
+  var content = $(this).find("input[name='content']").val()
   $postDiv.append(postHTML(title, content))
   hideForm()
 })
